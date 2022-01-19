@@ -1,0 +1,105 @@
+html{
+    background-color: rgb(189, 189, 189);
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.back{
+    background-color: rgb(72, 228, 72);
+    margin: 100px auto;
+    height: 800px;
+    width: 80%;
+    position: relative;
+}
+
+.sticky-menu {
+    background-color: grey;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.sticky-menu .menu-element  {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    width: 20%;
+}
+
+figure img {
+    width: 80%;
+}
+
+.f1, .f2, .f3, .f4{
+    position:absolute;
+    padding: 10px;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 5px;
+    font-size: 7px;
+    text-align: center;
+    width: 25%;
+}
+
+.f1{
+    z-index: 1;
+    transform:rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    left:20%;
+    top: 50%;
+}
+
+.f2{
+    z-index: 2;
+    transform:rotate(75deg);
+    -webkit-transform: rotate(75deg);
+    left:30%;
+    top: 50%;
+
+}
+
+.f3{
+    z-index: 2;
+    transform:rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    left:40%;
+    top: 50%;
+
+}
+
+.f4{
+    z-index: 2;
+    transform:rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    left:50%;
+    top: 50%;
+}
+
+.lateral{
+    position: fixed;
+    right: 90%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 30%;
+    width: 6%;
+    border: 1px solid black;
+    margin: 0 15px 0 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+
+}
+
+.lateral div{
+    display: block;
+}
+
+.lateral img{
+    width: 90%;
+    margin: 2px;
+}
